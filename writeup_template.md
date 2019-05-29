@@ -41,7 +41,7 @@ The B channel from the Lab color space, with a min threshold of 155 and an upper
 
 I chose to create a combined binary threshold based on the three above mentioned binary thresholds, to create one combination thresholded image which does a great job of highlighting almost all of the white and yellow lane lines.
 
-![Birds Eye Image](./images/original_wrapped_image.JPG)
+![Birds Eye Image](./images/s_binary.JPG)
 
 ### Steps 4, 5 and 6: Fitting a polynomial to the lane lines, calculating vehicle position and radius of curvature:
 At this point I was able to use the combined binary image to isolate only the pixels belonging to lane lines. The next step was to fit a polynomial to each lane line, which was done by:
